@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
-from datetime import datetime
+import datetime
 import os
 from pathlib import Path
 
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.postgres', # new
     'django.contrib.staticfiles',
+    'rest_framework',
     # 3rd party
     # local
     'tips',
