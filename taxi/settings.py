@@ -36,7 +36,11 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'django.contrib.postgres', # new
     'django.contrib.staticfiles',
+    # 3rd party
+    # local
+    'tips',
     
 ]
 
